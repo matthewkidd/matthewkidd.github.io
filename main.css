@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Real Text W01 Medium";
+    src: url("Fonts/5510800/5b3522da-a1d9-4c70-bf76-027a7ff091df.eot?#iefix");
+    src: url("Fonts/5510800/5b3522da-a1d9-4c70-bf76-027a7ff091df.eot?#iefix") format("eot"), url("Fonts/5510800/ef5d877e-5591-4550-bff2-3e974a0e2bb7.woff2") format("woff2"), url("Fonts/5510800/8ccfcdd9-6c47-4f24-90e5-5cd4d59c4c45.woff") format("woff"), url("Fonts/5510800/736d1d39-7503-4a77-abc2-940a15e0f487.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Real Text W01 Medium Italic";
+    src: url("Fonts/5510803/614d21fc-d52e-42c7-94f1-86e202d375f5.eot?#iefix");
+    src: url("Fonts/5510803/614d21fc-d52e-42c7-94f1-86e202d375f5.eot?#iefix") format("eot"), url("Fonts/5510803/ba30f01d-ba6b-46e3-82a3-5c77f98124bd.woff2") format("woff2"), url("Fonts/5510803/ee3011c4-0849-4c6d-8cfd-d66f5afcdf3e.woff") format("woff"), url("Fonts/5510803/c6ad97ab-46e0-4edb-8009-1fdcd83aaf89.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #EEEEEE;
+    height: 100%
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Real Text W01 Medium', serif;
+    line-height: 1.5;
+    color: #222222;
+    font-weight: 400;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0;
+    min-height: 100%
+}
+
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    padding: 1em 2em;
+}
+
+.thing {
+    margin-bottom: 1rem;
+}
+
+.message-thingy {
+    margin-top: 5rem;
+    font-family: "Real Text W01 Medium Italic";
+}
